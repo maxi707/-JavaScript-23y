@@ -1,0 +1,42 @@
+
+
+.card {
+  background: #f1f3f4;
+}
+h1{
+  margin-top: 32px;
+  margin-bottom: 16px;
+
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 20px; 
+  padding: 0px; 
+  color: #8b8b8b;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 780px 548px;
+    gap: 32px; /* Отступ между карточками */
+}
+
+.card {
+    padding: 32px;
+    border-radius: 12px;
+}
+
+
+.footer{
+    background-color:white;
+}
+
+.maps {
+    margin-top: 32px; 
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

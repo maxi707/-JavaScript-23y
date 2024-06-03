@@ -1,0 +1,65 @@
+.categoriesDiv{
+    max-width:  1360;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    gap: 32px;
+    margin-top: 10px;
+}
+.line{
+    width: 832px;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    
+}
+.button{
+    display: flex;
+    text-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+    height: 36px;
+    width: 152px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    margin-left: -32px;
+    background-color: white;
+    color: #8B8B8B;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    gap:22px
+}
+
+.cards{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items:   center;
+    
+}
+
+.img{
+    text-align: center;
+    width: 316px;
+    height: 350px;
+    border-radius: 12px;
+    
+    
+}
+.content p{
+    text-align: center;
+    color: black;
+}

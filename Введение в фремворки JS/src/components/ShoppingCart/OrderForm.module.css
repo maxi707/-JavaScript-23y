@@ -1,0 +1,48 @@
+.form {
+  margin-top: 32px;
+  background-color: #f1f3f4;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  width: 516px;
+  height: 58px;
+  background: white;
+  border-radius: 6px;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: solid;
+  color: black;
+  padding: 16px 32px 16px 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.field::placeholder {
+  color: #dddddd;
+}
+
+.button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 22px;
+  background-color: #339933;
+
+  width: 516px;
+  height: 58px;
+  color: white;
+  border-radius: 6px;
+  border-color: #dddddd;
+  border-style: solid;
+}
+.sent{
+  background-color: white;
+  color:black
+}

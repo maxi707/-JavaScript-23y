@@ -1,0 +1,8 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+
+  grid-gap: 28px;
+  margin-left: 0;
+  padding: 0;
+}

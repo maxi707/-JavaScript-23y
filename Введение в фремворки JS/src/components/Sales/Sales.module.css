@@ -1,0 +1,101 @@
+.categoriesDiv {
+  max-width: 1360;
+  align-items: center;
+  /* justify-content: space-between; */
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  gap: 52px;
+  margin-top: 32px;
+}
+.line {
+  width: 1093px;
+  border: 1px solid #dddddd;
+}
+.button {
+  display: flex;
+  text-wrap: nowrap;
+
+  height: 36px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+  margin-left: -32px;
+  background-color: white;
+  color: #8b8b8b;
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.content {
+  width: 1360px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between; 
+  gap: 22px;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #dddddd;
+  }
+
+.img {
+  text-align: center;
+  width: 316px;
+  height: 284px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+p {
+  /* text-wrap: nowrap; */
+  
+  text-align: center;
+  /* padding: 32px; */
+  color: black;
+}
+
+.prices{
+    display: inline-flex;
+    padding: 16px 32px 32px 32px;
+ 
+ }
+ .price{
+    display: flex;
+    color: black;
+    font-size: 40px;
+    align-items: flex-end;
+ }
+ .oldprice{
+    padding-left: 16px;
+    padding-bottom: 3px;
+    text-decoration: line-through;
+    font-size: 26px;
+    align-self: flex-end;
+ }
+
+ .percent{
+    padding-top: 3px;
+    position: absolute;
+    color: white;
+    text-align:center;
+    background-color: green;
+    width: 67px;
+    height: 34px;
+    border-radius: 6px;
+    margin-top: 16px;
+    margin-left: 234px;
+
+
+ }

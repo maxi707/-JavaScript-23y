@@ -1,0 +1,21 @@
+.head{
+    /* color:white; */
+    display:flex;
+    background-image: url("../../img/head.svg");
+    max-width: 1440;
+    height: 600px;
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 0;
+}
+
+.content{
+    font-size: 196px;
+    display: flexbox;
+    color:white;
+    margin: 80px 40px 20px 40px;
+}
+
+h1{
+    font-size: 96px;
+}

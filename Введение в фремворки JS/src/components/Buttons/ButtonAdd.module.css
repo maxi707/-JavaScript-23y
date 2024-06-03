@@ -1,0 +1,24 @@
+.button {
+    position: absolute;
+    margin: 0px 16px 164px 16px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #339933;
+    border-radius: 12px;
+    color: white;
+    width: 284px;
+    height: 58px;
+    border: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .button:active {
+    background-color: #282828;
+    
+  }

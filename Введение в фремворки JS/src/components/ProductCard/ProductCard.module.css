@@ -1,0 +1,44 @@
+.card {
+    margin-left: 0px;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+    /* background-color: antiquewhite; */
+  }
+  
+  .image {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
+  }
+  .divprice {
+    display: flex;
+    align-items: flex-end;
+  }
+  .price {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 40px;
+    margin: 0px 16px 32px 32px; 
+    color: black;
+  }
+  .discont {
+    font-size: 20px;
+    color:#8B8B8B;
+    text-decoration: line-through;
+    margin-bottom: 38px;
+  }
+  
+  .percent{
+      padding-top: 3px;
+      position: absolute;
+      color: white;
+      text-align:center;
+      background-color: green;
+      width: 67px;
+      height: 34px;
+      border-radius: 6px;
+      margin-top: -440px;
+      margin-left: 234px;
+   }
+  

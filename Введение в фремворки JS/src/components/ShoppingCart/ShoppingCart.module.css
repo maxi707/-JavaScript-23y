@@ -1,0 +1,144 @@
+.title {
+  max-width: 1360;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 10px;
+  font-size: 64px;
+}
+.title h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.line {
+  width: 700px;
+  border: 1px solid #dddddd;
+  border-top: none;
+}
+.button {
+  display: flex;
+  text-wrap: nowrap;
+  /* flex-wrap: nowrap; */
+  height: 36px;
+  width: 152px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+  margin-left: -32px;
+  background-color: white;
+  color: #8b8b8b;
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  justify-content: space-between;
+  gap: 32px;
+}
+.listItems {
+  flex-direction: column;
+}
+.cartItem {
+  display: flex;
+  flex: 57%;
+  width: 780px;
+  height: 180px;
+  gap: 32px;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.goodImage {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 1px solid #dddddd;
+  width: 200px;
+  height: 178px;
+}
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.cartItem p {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+.price {
+  display: flex;
+  align-items: center;
+
+  gap: 32px;
+  /* margin-bottom: 32px; */
+}
+
+.price h2 {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+}
+.price p {
+  padding-top: 6px;
+  color: #8b8b8b;
+  text-decoration: line-through;
+}
+.orderDetails {
+  background-color: #f1f3f4;
+  flex: 40%;
+  padding: 32px;
+  border-radius: 12px;
+}
+.orderTxt {
+  align-items: start;
+}
+
+.orderTxt h2 {
+  color: #282828;
+  font-size: 40px;
+  font-weight: 800;
+}
+.orderTxt p {
+  margin: 0;
+  font-size: 40px;
+  color: #8b8b8b;
+  text-align: start;
+}
+.total {
+  margin: 0;
+  display: flex;
+  align-items: flex-end ;
+  justify-content: space-between;
+}
+.total p {
+  margin: 0;
+}
+.total h1 {
+  display: flex;
+  font-size: 64px;
+  align-items: center;
+
+  margin: 0;
+}
+.orderForm {
+  background-color: #282828;
+}
+
+.empty p{
+  text-align:start;
+}

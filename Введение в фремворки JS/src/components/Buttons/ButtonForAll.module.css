@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  text-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #339933;
+  border-radius: 12px;
+  color: white;
+  width: 220px;
+  height: 58px;
+  border: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}

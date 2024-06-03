@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+  }
+  
+  .button {
+    width: 58px;
+    height: 58px;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+    font-size: 29px;
+    color: #8b8b8b;
+    background-color: white;
+  }
+  .button:hover{
+    color: #339933;
+  }
+  
+  .count {
+    display: flex;
+    width: 200px;
+    height: 58px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    font-size: 20px;
+    border-radius: 6px;
+  }
+  
